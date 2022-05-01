@@ -1,0 +1,49 @@
+.page_main {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000000;
+}
+
+.page_main .title {
+    width: 200px;
+    margin: 0 auto;
+}
+.contentMain{
+    width: 100%;
+}
+.contentMain .content {
+    width: 160px;
+    height: 65px;
+    border: 1.5px solid #313030;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentMain .content .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.contentMain .content .img img {
+    width: 50px;
+}
+.contentMain .content .info .name  {
+    width: 88px;
+    color: #000000;
+    height: 30px;
+    font-size: 18px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    
+}
+.contentMain .content .info .qq_number  {
+    width: 88px;
+    font-size: 16px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    color: rgba(105, 105,105,0.8)
+}
